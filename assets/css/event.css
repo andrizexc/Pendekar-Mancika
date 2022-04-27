@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    font-family: MN-B;
+    height: 100%;
+}
+
+.header{
+    background: #ff8b00;
+    height: 100%;
+}
+.header .center-event{
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.header .center-event .line-heading{
+    border-bottom: 2px solid #fff;
+    width: 100%;
+}
+.header .center-event h1{
+    color: #884a93;
+    font-family: MNE-EB;
+    text-align: center;
+}
+.header h2{
+    color: #884a93;
+    font-family: MNE-BD;
+    border-bottom: 2px solid #884a93;
+    width: 50px;
+}
+.header h5{
+    color: #fff;
+    font-family: MN-BD;
+}
+.header p{
+    color: #fff;
+    font-family: MN-BD;
+}
