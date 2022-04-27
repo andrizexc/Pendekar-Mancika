@@ -1,0 +1,230 @@
+html, body{
+    margin: 0;
+    font-family: MN-B;
+    height: 100%;
+    
+}
+* {
+   
+}
+.back-header{
+    background: #ffffff;
+    height: 100%;
+}
+.header{
+    background-position: center;
+    background-image: url(../img/background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+.header .row{
+    height: 100%;
+}
+.header .content-header-maskot{
+    height: 100%;
+    
+}
+
+.header .content-header-maskot img{
+    position: absolute;
+    width: 35%;
+    top: 67%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.header .content-header-circle .text-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.header .content-header-circle .text-header h1{
+    padding-bottom: 20px;
+    font-family: MNE-EB;
+}
+.header .content-header-circle img.big-circle-header{
+    animation: kanan 40s infinite;
+    animation-timing-function: linear;
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:0;
+}
+.header .content-header-circle img.small-circle-header{
+    animation: kanan 60s infinite reverse;
+    animation-timing-function: linear;
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:0;
+}
+.header .content-header-circle img.alat-musik-header{
+    max-width: 600px;
+}
+.header .content-header-circle img.logo-header{
+    max-width: 500px;
+}
+
+
+.back-about-index{
+    height: 100%;
+    background: #ff8b00;
+}
+.about-index{
+    height: 100%;
+    background: #884a93;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.about-index .container{
+    height: 100%;
+}
+.about-index .container .row{
+    height: 100%;
+}
+.about-index .container .row div.content-desc-hikayat{
+    height: 100%;
+}
+.about-index .container .row div.img-hikayat{
+    height: 100%;
+}
+.about-index .desc-hikayat{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.about-index .desc-hikayat h1{
+    font-family: MNE-EB;
+    color: #ff8b00;
+    padding-bottom: 20%;
+}
+.about-index .desc-hikayat p{
+    color: #fff;
+    padding-bottom: 20%;
+}
+.about-index .desc-hikayat a{
+    font-family: MNE-B;
+    color: #fff;
+    text-decoration: none;
+    background: #ff8b00;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.about-index .img-hikayat img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.about-index .img-hikayat img.big-circle{
+    animation: kanan 60s infinite;
+    animation-timing-function: linear;
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:0;
+}
+.about-index .img-hikayat img.small-circle{
+    width: 80%;
+    animation: kanan 60s infinite reverse;
+    animation-timing-function: linear;
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:0;
+}
+.about-index .img-hikayat img.alat-musik-circle{
+    width: 70%;
+}
+
+
+
+
+.kultur-index{
+    background: #884a93;
+}
+.kultur-index .about-index{
+    background: #ff8b00;
+}
+.kultur-index .about-index .desc-hikayat{
+    left: 60%;
+}
+.kultur-index .about-index .desc-hikayat h1{
+    color: #fff;
+}
+.kultur-index .about-index .desc-hikayat p{
+    color: #884a93;
+}
+.kultur-index .about-index .desc-hikayat a{
+    background: #884a93;
+}
+
+.btn-scroll{
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+}
+.btn-scroll:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.scroll-1{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: turun 1s infinite;
+}
+.scroll-2{
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: turun2 1s infinite;
+}
+
+
+@keyframes turun {
+  0% {top: 90%;}
+  50% {top: 92%;}
+  0% {top: 90%;}
+}
+@keyframes turun2 {
+  0% {bottom: 100px;}
+  50% {bottom: 80px;}
+  0% {bottom: 100px;}
+}
+@keyframes kanan {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+@media (max-width: 1366px){
+    .header .content-header-circle img.big-circle-header{
+        max-width: 520px;
+    }
+    .header .content-header-circle img.small-circle-header{
+        max-width: 450px;
+    }
+    .header .gitar-header img{
+        max-width: 250px;
+    }
+    .header .content-header-circle img.alat-musik-header{
+        max-width: 425px;
+    }
+    .header .content-header-circle img.logo-header{
+        max-width: 350px;
+    }
+    
+    .about-index .img-hikayat img.big-circle{
+        width: 90%;
+    }
+    .about-index .img-hikayat img.small-circle{
+        width: 70%;
+    }
+    .about-index .img-hikayat img.alat-musik-circle{
+        width: 60%;
+    }
+}

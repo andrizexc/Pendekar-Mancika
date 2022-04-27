@@ -1,0 +1,33 @@
+.navbar{
+    z-index: 999;
+    height: 120px;
+    width: 100%;
+    background: #fcb202;
+    position: fixed;
+    padding-top: 14px;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 34px;
+    
+}
+.navbar ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'notulen';
+}
+.navbar ul li a:hover{
+    color: #ef7d00;
+}
+.navbar ul .logo{
+    padding: 0px 100px 10px 10px;
+}
+.navbar ul li img{
+    max-width: 240px;
+}
+.navbar ul li a.active{
+    color: #ef7d00;
+}
