@@ -138,7 +138,6 @@ html, body{
 .card-maenpo .video{
     border-radius: 79px 79px 0px 0px;
     
-    
 }
 .card-maenpo img {
     border-radius: 60px 60px 0px 0px;  
@@ -186,7 +185,60 @@ html, body{
     width: 100%;
 }
 
+.content-karakter {
+    background-color: #f2f2f2;
+    color: #151515;
+}
+.content-karakter-2 {
+    background-color: #8aabff;
+    color: #151515;
+}
+.karakters {
+    background-color: #383838;
+    border: 1px #383838;
+    color: aliceblue;
+    font-family: 'notulen';
+    font-size: 58px;
+    margin-top: 100px;
+   
+}
+.k-1 {
+    color: #383838;
+    font-family: 'notulen';
+    font-size: 48px;
+   margin-bottom: 50px;
+}
+.k-2 {
+    background-color: #383838;
+    border: 1px #383838;
+    color: aliceblue;
+    font-family: 'satoshi';
+    font-size: 28px;
+   
+}
+.k-3 {
+    color: #383838;
+    font-family: 'satoshi';
+    font-size: 18px;
+    margin-top: 28px;
+   
+}
+.k-4 {
+    background-color: #383838;
+    border: 1px #383838;
+    color: aliceblue;
+    font-family: 'satoshi';
+    font-size: 28px;
+   
+}
 
+.k-6 {
+    background-color: #f1e210;
+    color: #036b00;
+    font-family: 'satoshi';
+    font-size: 28px;
+   
+}
 
 
 
