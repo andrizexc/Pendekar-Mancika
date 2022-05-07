@@ -135,6 +135,11 @@ html, body{
     border-radius: 79px;
     
 }
+.card-maenpo .video{
+    border-radius: 79px 79px 0px 0px;
+    
+    
+}
 .card-maenpo img {
     border-radius: 60px 60px 0px 0px;  
 }
@@ -180,6 +185,12 @@ html, body{
 .carousel-inner img {
     width: 100%;
 }
+
+
+
+
+
+
 
 #custCarousel .carousel-indicators {
     position: static;
