@@ -27,7 +27,15 @@ html, body{
     color: #383838;
     border-radius: 99px;
     padding:20px 120px 20px 120px;
-    font-size: 79px;
+    font-size: 57px;
+}
+.event-btn {
+    font-family: 'notulen';
+    background-color: #ffce60;
+    color: #383838;
+    border-radius: 99px;
+    padding:20px 120px 20px 120px;
+    font-size: 57px;
 }
 .line-h {
     left: 0%;
@@ -112,7 +120,7 @@ html, body{
     font-size: 68px;
 }
 .header-berita{
-    background: #cfe0cb;
+    background: #f1e210;
     width: 100%;
     height: 100%;
     background-position: center;
@@ -122,12 +130,33 @@ html, body{
 }
 .header-berita .container{
     height: 100%;
-    padding-top: 450px;
+    padding-top: 400px;
     justify-content: center;
     text-align: center;
 }
 
+.header-event{
+    background: #cfe0cb;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(../img/background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-event .container{
+    height: 100%;
+    padding-top: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+
 .content-berita {
+    background-color: #f1e210;
+    padding: 100px 12px 100px 0px;
+}
+.content-event {
     background-color: #cfe0cb;
     padding: 100px 12px 100px 0px;
 }
@@ -239,8 +268,31 @@ html, body{
     font-size: 28px;
    
 }
-
-
+.content-event {
+    background-color: #5c7142;
+    padding: 100px 0px 100px 0px;
+}
+.h1-news {
+   font-family: 'satoshi-r';
+    padding-bottom: 50px;
+    font-size: 35px;
+    color: aliceblue;
+    font-weight: 800;
+}
+.h1-berita {
+  font-family: 'satoshi-r'; 
+  padding-top: 80px;
+    font-size: 34px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.text-berita {
+  font-family: 'satoshi-r'; 
+  padding-top: 90px;
+    font-size: 17px;
+    font-weight: 500;
+    color: aliceblue;
+}
 
 
 
