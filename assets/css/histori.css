@@ -299,7 +299,10 @@ html, body{
     font-weight: 500;
     color: aliceblue;
 }
-
+.content-faktaunik {
+    background-color: #efefef;
+    color: #151515;
+}
 
 
 #custCarousel .carousel-indicators {
