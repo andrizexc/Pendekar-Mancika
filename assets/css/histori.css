@@ -115,10 +115,15 @@ html, body{
     padding-top: 70px;
     padding-bottom: 100px;
 }
+.content-senjata {
+    background-color: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
 .perkembangan-title {
     font-family: 'notulen';
     font-size: 68px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .header-berita{
     background: #f1e210;
