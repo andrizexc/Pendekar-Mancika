@@ -112,12 +112,13 @@ html, body{
 
 .content-perkembangan {
     background-color: #8dc63f;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 100px;
 }
 .perkembangan-title {
     font-family: 'notulen';
     font-size: 68px;
+    padding-bottom: 20px;
 }
 .header-berita{
     background: #f1e210;
