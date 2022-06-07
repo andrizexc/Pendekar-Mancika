@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #5c7142;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.checkbox {
+  position: relative;
+  height: 100px;
+  width: 400px;
+  background: #ffffff;
+  border-radius: 100px;
+}
+
+.checkbox-input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  z-index: 1;
+  -webkit-appearance: none;
+}
+
+.checkbox-icons::before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  height: 85px;
+  width: 85px;
+  background: #5c7142;
+  border-radius: 50%;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.checkbox-input:checked + label .checkbox-icons::before {
+  background: #c34a4a;
+  transform: translateY(-50%) rotate(360deg);
+  left: calc(100% - 108px);
+  content: "\f00d";
+}
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+    display: none;
+}

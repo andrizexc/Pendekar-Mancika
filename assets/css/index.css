@@ -184,7 +184,9 @@ html, body{
     transform: translateX(-50%);
     animation: turun2 1s infinite;
 }
-
+.audio {
+    display: none;
+}
 
 @keyframes turun {
   0% {top: 90%;}
