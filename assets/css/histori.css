@@ -25,15 +25,19 @@ html, body{
     font-family: 'notulen';
     background-color: #ffce60;
     color: #383838;
-    border-radius: 99px;
+    border-radius: 29px;
+    border: 4px solid #000;
     padding:20px 120px 20px 120px;
     font-size: 57px;
+    box-shadow: 5px 10px;
 }
 .event-btn {
     font-family: 'notulen';
     background-color: #ffce60;
     color: #383838;
-    border-radius: 99px;
+    border: solid 3px;
+    box-shadow: 5px 10px;
+    border-radius: 30px;
     padding:20px 120px 20px 120px;
     font-size: 57px;
 }
@@ -74,12 +78,14 @@ html, body{
 }
 .text-bawah {
     padding: 12px;
-    color: #ffffff;
+    color: #000000;
     font-family: satoshi-r;
     font-size: 18px;
     border-radius: 120px;
     text-align: center;
-    background-color: #5c7142;
+    background-color: #ffffff;
+    border: 3px solid #000;
+    box-shadow: 5px 10px;
 }
 
 .content-pilar {
@@ -88,9 +94,60 @@ html, body{
 .buledan-pilar  {
     background-color: #ffffff;
     padding: 32px;
+    border: 3px solid #000;
     margin-top: 40px;
     border-radius: 0px 90px 90px 0px;
 }
+.gelud {
+    width: 100%;
+  animation-name: spin;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+.muter {
+    width: 100%;
+  animation-name: spin;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+.tidak-gelud {
+ position: absolute;
+  left: 0px;
+    right: 0px;
+    top: 50px; 
+        
+    }
+.tidak-muter {
+ position: absolute;
+  left: 400px;
+    right: 0px;
+    top: 320px;
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
 .buledan-pilar h2 {
     text-align: center;
     font-size: 25px;
@@ -126,7 +183,7 @@ html, body{
     padding-bottom: 30px;
 }
 .header-berita{
-    background: #f1e210;
+    background: #CFE0CB;
     width: 100%;
     height: 100%;
     background-position: center;
@@ -142,7 +199,7 @@ html, body{
 }
 
 .header-event{
-    background: #cfe0cb;
+    background: #F1E210;
     width: 100%;
     height: 100%;
     background-position: center;
@@ -159,11 +216,27 @@ html, body{
 
 
 .content-berita {
-    background-color: #f1e210;
+    background-color: #CFE0CB;
     padding: 100px 12px 100px 0px;
 }
 .content-event {
-    background-color: #cfe0cb;
+    background-color: #F1E210;
+    padding: 100px 12px 100px 0px;
+}
+.content-event1 {
+    background-color: #8AABFF;
+    padding: 100px 12px 100px 0px;
+}
+.content-event2 {
+    background-color: #4E9B8C;
+    padding: 100px 12px 100px 0px;
+}
+.content-event3 {
+    background-color: #5C7142;
+    padding: 100px 12px 100px 0px;
+}
+.content-event4 {
+    background-color: #236CAF;
     padding: 100px 12px 100px 0px;
 }
 .card-maenpo {
@@ -190,7 +263,7 @@ html, body{
     font-size: 24px;
     margin: 40px;
     padding: 12px 102px 12px 102px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     border: 3px solid #000000;
     color: #000000;
     font-weight: bolder;
@@ -229,13 +302,13 @@ html, body{
     color: #151515;
 }
 .karakters {
-    background-color: #383838;
-    border: 1px #383838;
-    color: aliceblue;
+    background-color: #ffffff;
+    border: 3px solid #383838;
+    color: #000000;
     font-family: 'notulen';
     font-size: 58px;
     margin-top: 100px;
-   
+   box-shadow: 5px 10px;
 }
 .k-1 {
     color: #383838;
@@ -274,10 +347,7 @@ html, body{
     font-size: 28px;
    
 }
-.content-event {
-    background-color: #5c7142;
-    padding: 100px 0px 100px 0px;
-}
+
 .h1-news {
    font-family: 'satoshi-r';
     padding-bottom: 50px;
@@ -344,4 +414,15 @@ html, body{
     .header h1{
         top: 20%;
     }
+    .tidak-muter {
+    left: 300px;
+        width: 200px;
+    right: 0px;
+    top: 240px;
+    }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+ 
+  
 }
