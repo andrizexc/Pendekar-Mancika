@@ -7,9 +7,57 @@
     <title>Awesome Quiz App | CodingNepal</title>
     <link rel="stylesheet" href="style.css">
     <!-- FontAweome CDN Link for Icons-->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/game.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <style type="text/css">
+           @font-face {
+                font-family: "notulen";
+                src: url('assets/font/notulen.otf');
+            }
+             @font-face {
+                font-family: "satoshi-r";
+                src: url('assets/font/Satoshi-Regular.otf');
+            }
+            @font-face {
+                font-family: "satoshi-bi";
+                src: url('assets/font/Satoshi-BoldItalic.otf');
+            }
+          
+        </style>
 </head>
 <body>
+    
+    <div class="navbar">
+          <div class="container">
+            <ul>
+                <li class="logo"><a href="index.html"><img src="assets/img/pendekar-logo.png"></a></li>
+                 <li><a href="histori.html">Histori</a></li>
+                <li><a href="berita.html">News</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+              </div>
+        </div>
+    
+    <section class="header-histori">
+        <div class="container">
+            <div class="row">
+        <div class="col-12">
+            <a class="histori-btn">histori</a>
+            <img class="ilus-b" src="assets/img/ilus-b.png">
+            </div>
+                </div>
+        
+        </div>
+    </section>
+    <section class="header-histori">
+        <div class="container">
+            <div class="row">
+        <div class="col-12">
     <!-- start Quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
 
@@ -77,6 +125,72 @@
 
     <!-- Inside this JavaScript file I've coded all Quiz Codes -->
     <script src="js/script.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header-histori">
+        <div class="container">
+            <div class="row">
+       <div class="col-12">
+                            <center>
+                                <section id="wrapper" class="box-atas">
+                                    <div class="box">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <textarea type="text" class="input" placeholder="BAGAIMANA PENGALAMAN KUNJUNGANMU?" v-model="newItem"
+                                                    @keyup.enter="addItem()" required></textarea>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="comment">
+                                                    <p v-for="items in item" v-text="items"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js'></script>
+    <script>
+        (function ($) {
+            $(function () {
+                $('.toggle-overlay').click(function () {
+                    $('aside').toggleClass('open');
+                });
+            });
+        })(jQuery);
 
+
+         $(document).ready(function () {
+
+                $(".btn-box").on('click', function () {
+                    $(".comment").addClass("afterText");
+                });
+                $("textarea").on('keyup.enter', function () {
+                    $(".comment").addClass("afterText");
+                });
+            });
+
+            new Vue({
+                el: "#wrapper",
+                data: {
+                    newItem: '',
+                    item: [],
+                },
+                methods: {
+                    addItem() {
+                        this.item.push(this.newItem);
+                        this.newItem = "";
+                    }
+                }
+
+            });
+    </script>
 </body>
 </html>

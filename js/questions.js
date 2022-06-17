@@ -2,13 +2,13 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "1. Dari kota manakah Maenpo Cikalongan berasal?",
+    answer: "Cianjur",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Bandung",
+      "Cianjur",
+      "Tasik",
+      "Garut"
     ]
   },
     {

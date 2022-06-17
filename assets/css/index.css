@@ -28,8 +28,8 @@ html, body{
 
 .header .content-header-maskot img{
     position: absolute;
-    width: 35%;
-    top: 67%;
+    width: 45%;
+    top: 57%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
