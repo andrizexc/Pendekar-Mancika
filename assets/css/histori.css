@@ -391,7 +391,13 @@ html, body{
     background-color: #efefef;
     color: #151515;
 }
-
+.running-text {
+    background-color: aqua;
+    font-family: 'satoshi-r'; 
+    padding-top: 20px;
+    font-size: 17px;
+    position: fixed;
+}
 
 #custCarousel .carousel-indicators {
     position: static;
@@ -439,6 +445,21 @@ html, body{
     color: #000000;
     font-weight: bolder;
     border-radius: 99px;
+}
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    font-family: 'satoshi-r'; 
+    overflow: hidden;
+    font-size: 24px;
+}
+.footer-fixed {
+    position: fixed;
+    background: #f94e4e;
+    color: #000;
+    bottom: 0;
+    z-index: 999;
+    padding: 0;
 }
 @keyframes kanan {
   from {transform: rotate(0deg);}
