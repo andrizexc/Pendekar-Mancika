@@ -189,7 +189,21 @@ html, body{
 .audio {
     display: none;
 }
-
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    font-family: 'satoshi-r'; 
+    overflow: hidden;
+    font-size: 24px;
+}
+.footer-fixed {
+    position: fixed;
+    background: #f94e4e;
+    color: #000;
+    bottom: 0;
+    z-index: 999;
+    padding: 0;
+}
 @keyframes turun {
   0% {top: 90%;}
   50% {top: 92%;}
