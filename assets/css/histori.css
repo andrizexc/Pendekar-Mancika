@@ -10,11 +10,34 @@ html, body{
     width: 100%;
     height: 100%;
     background-position: center;
-    background-image: url(../img/background-1.png);
+    background-image: url(../img/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+     background-position: center;
+    background-image: url(../img/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .header-histori .container{
+    height: 100%;
+    padding-top: 450px;
+    justify-content: center;
+    text-align: center;
+}
+.header-games {
+    background: #fef5dd;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(../img/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-games .container{
     height: 100%;
     padding-top: 450px;
     justify-content: center;
@@ -205,7 +228,7 @@ html, body{
     width: 100%;
     height: 100%;
     background-position: center;
-    background-image: url(../img/background-1.png);
+    background-image: url(../img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -221,11 +244,42 @@ html, body{
     width: 100%;
     height: 100%;
     background-position: center;
-    background-image: url(../img/background-1.png);
+    background-image: url(../img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .header-event .container{
+    height: 100%;
+    padding-top: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-shop{
+    background: #F1E210;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(../img/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-shop .container{
+    height: 100%;
+    padding-top: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.header-games{
+    background: #F1E210;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(../img/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-games .container{
     height: 100%;
     padding-top: 400px;
     justify-content: center;

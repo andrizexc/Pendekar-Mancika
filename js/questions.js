@@ -13,46 +13,46 @@ let questions = [
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Siapakah pelopor Maenpo Cikalongan?",
+    answer: "Arya Wiranudatar",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Arya Wiranudatar",
+      "Eyang Suryakencana",
+      "Raden Djaya Perbata",
+      "Prabu Siliwangi"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Pada tahun berapakah lahirnya Maenpo Cikalongan?",
+    answer: "1512 M",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "1512 M",
+      "1850 M",
+      "1890 M",
+      "1907 M"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Sebutkan salah satu ciri karakteristik cara bermain ala Maenpo Cikalongan?",
+    answer: "Mengandalkan kekuatan fisik untuk bertarung",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Mengandalkan kekuatan fisik untuk bertarung",
+      "Mendesak dan menjatuhkan lawan demi untuk memenangkan pertarungan",
+      "Mengutamakan kepekaan atau sensitivitas dalam bertarung saat bersentuhan dengan lawan",
+      "Mementingkan keselamatan diri dibanding lawan"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Kapan Maenpo Cikalongan di akui oleh UNESCO?",
+    answer: "2005",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "2005",
+      "2019",
+      "2022",
+      "1907 M"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question

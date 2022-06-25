@@ -12,12 +12,14 @@ html, body{
     height: 100%;
 }
 .header{
-    background-position: center;
-    background-image: url(../img/background-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
     }
+.bg1 {
+     background-position: center;
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .header .row{
     height: 100%;
 }
