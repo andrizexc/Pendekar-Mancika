@@ -14,7 +14,7 @@ let questions = [
     {
     numb: 2,
     question: "Siapakah pelopor Maenpo Cikalongan?",
-    answer: "Arya Wiranudatar",
+    answer: "Raden Djaya Perbata",
     options: [
       "Arya Wiranudatar",
       "Eyang Suryakencana",
@@ -25,7 +25,7 @@ let questions = [
     {
     numb: 3,
     question: "Pada tahun berapakah lahirnya Maenpo Cikalongan?",
-    answer: "1512 M",
+    answer: "1907 M",
     options: [
       "1512 M",
       "1850 M",
@@ -36,7 +36,7 @@ let questions = [
     {
     numb: 4,
     question: "Sebutkan salah satu ciri karakteristik cara bermain ala Maenpo Cikalongan?",
-    answer: "Mengandalkan kekuatan fisik untuk bertarung",
+    answer: "Mengutamakan kepekaan atau sensitivitas dalam bertarung saat bersentuhan dengan lawan",
     options: [
       "Mengandalkan kekuatan fisik untuk bertarung",
       "Mendesak dan menjatuhkan lawan demi untuk memenangkan pertarungan",
@@ -47,7 +47,7 @@ let questions = [
     {
     numb: 5,
     question: "Kapan Maenpo Cikalongan di akui oleh UNESCO?",
-    answer: "2005",
+    answer: "2019",
     options: [
       "2005",
       "2019",
